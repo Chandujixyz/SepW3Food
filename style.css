@@ -174,13 +174,16 @@ line-height: 58px; /* 120.833% */
 
  }
  .card-border{
-    background:linear-gradient(to bottom,#FFCF0300,#FFCF03);
+    background:linear-gradient(to bottom,#FFCF0300,#f6f6f6);
    border-radius: 20px;
    box-shadow: 20px 40px 90px -5px rgba(133,15,15,0.08);
    padding:3px;
    height:383px;
    width: 340px;
 
+ }
+ .card-border:hover{
+    background:linear-gradient(to bottom,#FFCF0300,#FFCF03);
  }
  .card{
     width: 100%;
